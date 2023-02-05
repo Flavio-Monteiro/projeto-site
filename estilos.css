@@ -1,0 +1,377 @@
+*:root {
+    --font--primaria: "Raleway";
+    --font-secundaria: "rawline";
+
+    --cor-cinza: #4b4b4d;
+    --cor-verde: #00a85a;
+}
+
+.header {
+    /* background-image: linear-gradient(to right, #faf8f8 0%,transparent, black 100%); */
+}
+
+.container__logo_e_nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__logo_e_nome p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: var(--font--primaria);
+    margin: 0;
+    padding: 0;
+    color: var(--cor-verde);
+    font-weight: bold;
+}
+
+.container-fluid img {
+    width: 124px;
+}
+
+.container__logo_e_nome p span {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: #e8eeeb;
+    font-family: var(--font--primaria);
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid ul {
+    display: flex;
+}
+
+.container-fluid ul li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+.container-fluid ul li a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #e8eeeb;
+    font-weight: normal;
+    font-family: var(--font--primaria);
+    transition: 0.5s ease;
+}
+
+.container-fluid ul:hover li a {
+    color: #00a85a;
+}
+
+.container-fluid ul:hover li a:not(:hover) {
+    color: rgb(179, 177, 177);
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+/*==================================*/
+.bg__video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+    filter: blur(3px);
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(images/road01.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+}
+
+.paralax {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #000, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.background__infor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background__infor h1 {
+    color: #fff;
+    font-family: var(--font--primaria);
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.background__infor p {
+    margin: 1em;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: var(--font--primaria);
+}
+.background__infor >img {
+    width:0px;
+    
+}
+
+.background img {
+    width: 512px;
+}
+
+.midia__sociais img {
+    width: 34px;
+    margin: 1em 5px;
+}
+
+.monteiro {
+    color: #348aa7;
+    font-weight: 500;
+}
+
+.ver__mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    height: 40px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    transition: 0.3s ease;
+}
+
+.ver__mais p {
+    color: #00a85a;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    transition: 0.4s ease;
+}
+
+.ver__mais:hover {
+    border-color: #00a85a;
+    cursor: pointer;
+}
+
+.ver__mais:hover p {
+    color: #fff;
+}
+
+.github,
+.instagram,
+.facebook,
+.linkedin,
+.whatsapp {
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.github:hover,
+.instagram:hover,
+.facebook:hover,
+.linkedin:hover,
+.whatsapp:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* SEÇÃO SOBRE MIM*/
+
+.dev {
+    min-width: 220px;
+    height: 280px;
+    border-radius: 50px;
+    
+    margin: 0 10px 0 0;
+}
+
+.sobre__min {
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.sobre__min h1 {
+    text-align: center;
+    font-family: var(--font--primaria);
+    margin: 1.3em;
+}
+.sobre__min p {
+    margin: 2em 0;
+   text-align: justify;
+}
+.span_sobre_min{
+    color: #00a85a;
+    font-weight: bold;
+}
+.symbol {
+   font-size: 2em;
+   color: #348aa7;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 1.5em;
+}
+.symbol::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #00a85a; 
+}
+.symbol::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #00a85a; 
+}
+.text-center h1 {
+    margin: 2em 0;
+    font-family: var(--font--primaria);
+}
+.col {
+    width: 400px;
+    height: 450px;
+    margin: 5px;
+}
+.progress {
+    width: 100%;
+}
+.progres_01 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+}
+.progres_01 img {
+    width: 32px;
+    margin: 8px;
+}
+/* SEÇÃO MINHA EDUCAÇÃO*/
+
+.container__educacao {
+    height: 100vh;
+   padding: 5px;
+   background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+.container__educacao > h1 {
+    margin: 1em 0;
+    font-family: var(--font--primaria);
+    font-weight: bold;
+}
+.minha__educacao {
+    border-radius: 5px;
+    margin: 5px; 
+}
+.minha__educacao li {
+    width: 420px;
+    height: 200px;
+    min-width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+   
+}
+.minha__educacao li::before{
+    content:'\2705';
+    margin-bottom: 1em;
+    display: block;
+}
+.minha__educacao li::after{
+    content:'';
+
+}
+.minha__educacao p {
+    font-family: var(--font--primaria);
+}
+.minha__educacao h1 {
+    font-size: 1.5em;  
+    font-family: var(--font--primaria);  
+}
+
+/* SEÇÃO OUTRSO CONHECIMENTOS */ 
+
+.outros__conhecimentos {
+    min-height: 100vh;
+}
+.col-6 {
+    width: 400px;
+    border: 1px solid #454646;
+    background-color: #FCFDF2;
+    margin: 5px;
+    padding: 1em;
+  
+}
+.col-6 img {
+    width: 70px;
+}
+.col-6 h2 {
+    font-family: var(--font--primaria);
+    font-weight: bold;
+    margin: 1em 0;
+    font-size: 1.4em;
+}
+.col-6 p {
+    text-align: justify;
+    font-family: var(--font--primaria);
+}
+.projeto__img {
+    width: 10px;
+}
+.footer{
+    height:60px;
+
+}
+.footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .header ul {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .container__logo_e_nome p {
+        font-size: 1em;
+    }
+
+    .background__infor h1 {
+        font-size: 2em;
+    }
+}
+.card {
+    margin: 5px;
+}
+.card img{
+    width: 70px;
+   
+}
+
+.meus_projetos {
+    min-height: 70vh;
+}
+.botao {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
