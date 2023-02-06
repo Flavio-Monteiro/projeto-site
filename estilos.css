@@ -9,11 +9,26 @@
 .header {
     /* background-image: linear-gradient(to right, #faf8f8 0%,transparent, black 100%); */
 }
+.navbar {
+    display: none;
+}
+.nav-personal {
+   
+}
+.container-logo-fm {
+   height: 60px;
+   width: 50px;
+   background-image: url("images/logomarca-semfundo.png");
 
+}
+.img-logo-fm {
+    
+}
 .container__logo_e_nome {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .container__logo_e_nome p {
@@ -345,8 +360,14 @@
 }
 
 @media (max-width: 768px) {
-    .header ul {
+    .nav-logo-personal ul {
         display: none;
+    }
+    .container__logo_e_nome {
+        display: none;
+    }
+    .navbar {
+        display: block;
     }
 }
 
