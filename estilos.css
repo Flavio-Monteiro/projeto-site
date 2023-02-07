@@ -12,9 +12,15 @@
 .navbar {
     display: none;
 }
-.nav-personal {
+.menu-lateral {
+   background-color: #454646;
    
 }
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+font
 .container-logo-fm {
    height: 60px;
    width: 50px;
