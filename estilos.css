@@ -12,7 +12,7 @@
 .menu-lateral {
     background-color: #181D31;
 }
-.nav-link {
+.nav-link p{
     font-weight: 500;
     font-family: var(--font--primaria);
    
