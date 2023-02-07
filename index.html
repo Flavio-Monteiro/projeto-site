@@ -28,8 +28,8 @@
 
 <body>
   
-   <nav class="navbar bg-body-tertiary fixed-top nav-personal">
-      <div class="container-fluid">
+   <nav class="navbar bg-body-tertiary fixed-top ">
+      <div class="container-fluid nav-personal">
          <div class="container-logo-fm">
             
          </div>
@@ -42,26 +42,26 @@
                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body header-menu-lateral">
                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
                      <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#scrollspyHeading2">Sobre Min</a>
+                     <a class="nav-link" href="#scrollspyHeading2"><p>Sobre Min</p></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#scrollspyHeading3">Educação</a>
+                     <a class="nav-link" href="#scrollspyHeading3"><p>Educação</p></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#scrollspyHeading4">Conhecimento</a>
+                     <a class="nav-link" href="#scrollspyHeading4"><p>Conhecimento</p></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#scrollspyHeading5">Projetos</a>
+                     <a class="nav-link" href="#scrollspyHeading5"><p>Projetos</p></a>
                   </li>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#scrollspyHeading6">Contato</a>
+                     <a class="nav-link" href="#scrollspyHeading6"><p>Contato</p></a>
                   </li>
                </ul>
                <form class="d-flex mt-3" role="search">
@@ -85,9 +85,7 @@
          <li><a class="nav-link" href="#">Sobre mim</a></li>
       </ul>
    </nav> 
-
-   <main>
-      <section id="scrollspyHeading1" class="container-fluid background">
+      <header id="scrollspyHeading1" class="container-fluid background">
          <div class="paralax  align-items-center">
             <dv class="container background__infor">
                <p>Olá, eu sou</p>
@@ -107,13 +105,18 @@
                <source src="video/video3.mp4" type="video/mp4">
             </video>
          </div>
-      </section>
+      </header>
+      <main>
       <section id="scrollspyHeading2" class="container-fluid  d-flex flex-column mb-3 ">
-         <div class="container sobre__min">
-            <h1> &#10094; Sobre <span class="span_sobre_min">min</span> &#10095; </h1>
+         <header class="container">
+            <h1>
+                &#10094; Sobre <span class="span_sobre_min">min</span> &#10095;
+            </h1>
             <div class="symbol">
                &#9889;
             </div>
+         </header>
+         <article class="container sobre__min">
             <img class="dev" src="images/flavio002.png" alt="">
             <p>
                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ipsum nostrum, tempore modi et porro
@@ -126,7 +129,7 @@
                molestiae recusandae dolore, nulla quibusdam perferendis, explicabo, omnis reiciendis iste ea
                perspiciatis ex odio. Et animi ea ratione iste eos quaerat.
             </p>
-         </div>
+         </article>
          <div class="container text-center">
             <div class="row d-flex test">
                <div class="col flex-column d-flex align-items-center">
@@ -194,7 +197,9 @@
       </section>
       <section id="scrollspyHeading3"
          class="d-flex justify-content-center flex-column align-items-center container__educacao container-fluid ">
-         <h1>Minha Educação</h1>
+         <header class="container">
+            <h1>Minha Educação</h1>
+         </header>
          <div class="symbol">
             &#127891;
          </div>
@@ -212,8 +217,10 @@
          </ul>
       </section>
       <section id="scrollspyHeading4" class="container text-center outros__conhecimentos">
-         <div class="row d-flex justify-content-center flex-wrap">
-            <h1>Outros Conhecimentos</h1>
+         <arcticle class="row d-flex justify-content-center flex-wrap">
+            <header class="container">
+               <h1>Outros Conhecimentos</h1>
+            </header>
             <div class="symbol">
                &#127891;
             </div>
@@ -241,81 +248,81 @@
                   eligendi qui animi quae totam atque provident ipsum quasi tempore, officiis adipisci optio officia
                   laudantium voluptates!</p>
             </div>
-         </div>
+         </arcticle>
 
       </section>
-      <div class="container d-flex justify-content-center">
+      <header class="container d-flex justify-content-center">
          <h1>Projetos</h1>
-      </div>
-      <div class="symbol">
-         &#9889;
-      </div>
+         <div class="symbol">
+            &#9889;
+         </div>
+      </header>
       <section id="scrollspyHeading5" class="container-fluid meus_projetos">
          <div class="container d-flex justify-content-center fle-row flex-wrap">
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto </div>
+            <article class="card border-info mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto </header>
                <div class="card-body text-primary">
                   <h5 class="card-title">Primary card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto</div>
+            </article>
+            <article class="card border-info mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto</header>
                <div class="card-body text-primary">
                   <h5 class="card-title">Secondary card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto</div>
+            </article>
+            <article class="card border-info mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto</header>
                <div class="card-body text-primary">
                   <h5 class="card-title">Success card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto</div>
+            </article>
+            <article class="card border-info mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto</header>
                <div class="card-body text-primary">
                   <h5 class="card-title">Danger card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
-            <div class="card border-warning mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto</div>
+            </article>
+            <article class="card border-warning mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto</header>
                <div class="card-body">
                   <h5 class="card-title">Warning card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto</div>
+            </article>
+            <article class="card border-info mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto</header>
                <div class="card-body">
                   <h5 class="card-title">Info card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
-            <div class="card border-info mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto</div>
+            </article>
+            <article class="card border-info mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto</header>
                <div class="card-body">
                   <h5 class="card-title">Light card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
-            <div class="card border-dark mb-3" style="max-width: 18rem;">
-               <div class="card-header">Projeto</div>
+            </article>
+            <article class="card border-dark mb-3" style="max-width: 18rem;">
+               <header class="card-header">Projeto</header>
                <div class="card-body">
                   <h5 class="card-title">Dark card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                      card's content.</p>
                </div>
-            </div>
+            </article>
          </div>
       </section>
    </main>

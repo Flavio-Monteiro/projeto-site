@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "cirlorm.mobileview",
-        "centuplex.quokka"
+        "centuplex.quokka",
+        "wallabyjs.quokka-vscode"
     ]
 }
