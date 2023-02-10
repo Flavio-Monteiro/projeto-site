@@ -28,39 +28,6 @@
    background-image: url("images/logomarca-semfundo.png");
 
 }
-/* .img-logo-fm {
-    
-}
-.container__logo_e_nome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.container__logo_e_nome p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.2em;
-    font-family: var(--font--primaria);
-    margin: 0;
-    padding: 0;
-    color: var(--cor-verde);
-    font-weight: bold;
-}
-
-.container-fluid img {
-    width: 124px;
-}
-
-.container__logo_e_nome p span {
-    font-size: 0.6em;
-    font-weight: bold;
-    color: #e8eeeb;
-    font-family: var(--font--primaria);
-} */
-
 .container-fluid {
     display: flex;
     justify-content: space-between;
@@ -288,6 +255,7 @@
 /* SEÇÃO MINHA EDUCAÇÃO*/
 
 .container__educacao {
+    position: relative;
     height: 100vh;
    padding: 5px;
    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
@@ -327,7 +295,7 @@
     font-family: var(--font--primaria);  
 }
 
-/* SEÇÃO OUTRSO CONHECIMENTOS */ 
+/* SEÇÃO OUTRos CONHECIMENTOS */ 
 
 .outros__conhecimentos {
     min-height: 100vh;
@@ -403,4 +371,18 @@
 /* Seção nav bar oculta para usar nav-bootstrap */
 .nav-logo-personal {
     display: none;
+}
+.header_sobre_min {
+    margin: 2em 0 0 0 ;
+    padding: 1em 0;
+}
+
+
+.header_minha_educacao {
+    position: absolute;
+    top: 100px;
+}
+.container {
+    
+    
 }
