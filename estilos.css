@@ -305,6 +305,7 @@
 
 
 /* SEÇÃO CERTIFICADOS */
+
 .container_certificado {
     margin: 3em 0;
     padding: 1em 0;
@@ -318,11 +319,17 @@
 }
 
 .flip-card {
+    margin: 10px;
     background-color: transparent;
-    width: 320px;
+    width: 380px;
+    border-radius: 10px;
     height: 254px;
     perspective: 1000px;
     font-family: sans-serif;
+    overflow: hidden;
+    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 80%, 80% 100%, 0 100%, 0% 80%, 0% 20%);
+
+  
 
   }
   
@@ -344,6 +351,10 @@
   
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    
+  }
+  .flip-card:hover{
+   
   }
   
   .flip-card-front, .flip-card-back {
