@@ -302,7 +302,13 @@
     font-size: 1.5em;  
     font-family: var(--font--primaria);  
 }
+
+
 /* SEÇÃO CERTIFICADOS */
+.container_certificado {
+    margin: 3em 0;
+    padding: 1em 0;
+}
 .certificado{
     height: 100vh;
 }
