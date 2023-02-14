@@ -313,24 +313,15 @@
 .certificado{
     height: 100vh;
 }
-.testing {
-  
-    width: 100%;
-}
+
 
 .flip-card {
     margin: 10px;
     background-color: transparent;
     width: 380px;
-    border-radius: 10px;
     height: 254px;
     perspective: 1000px;
-    font-family: sans-serif;
     overflow: hidden;
-    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 80%, 80% 100%, 0 100%, 0% 80%, 0% 20%);
-
-  
-
   }
   
   .title {
@@ -417,10 +408,8 @@
 /*SEÇÃO PROJETOS*/
 .meus_projetos{
     height: 100VH;
-    border: 3px dashed red;
 }
 .header_projetos{
-    border: 2px dashed blue;
 }
 
 
