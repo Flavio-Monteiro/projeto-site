@@ -311,18 +311,13 @@
 .certificado{
     height: 100vh;
 }
-.testing {
-    width: 100%;
-}
 
 .flip-card {
     margin: 10px;
     background-color: transparent;
     width: 380px;
-    border-radius: 10px;
     height: 254px;
     perspective: 1000px;
-    font-family: sans-serif;
     overflow: hidden;
   }
   
